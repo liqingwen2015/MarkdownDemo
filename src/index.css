@@ -56,7 +56,7 @@ body {
   
   button,
   .note.selected {
-    background: #40b883;
+    background: orange;
     color: white;
   }
   
@@ -81,7 +81,7 @@ body {
   }
   
   input:focus {
-    border-color: #40b883;
+    border-color: orange;
     background: white;
     color: black;
   }
@@ -129,14 +129,14 @@ body {
   }
   
   a {
-    color: #40b883;
+    color: orange;
   }
   
   h1,
   h2,
   h3 {
     margin: 10px 0 4px;
-    color: #40b883;
+    color: orange;
   }
   
   h1 {
