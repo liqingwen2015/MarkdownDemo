@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title></title>
+    <!-- 引入样式文件 -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- 引入 js 库 -->
+    <script src="lib/vue.js"></script>
+    <script src="lib/marked.js"></script>
+    <script src="lib/axios.min.js"></script>
+
+    <div id="app">
+        <!-- 主区域：书写 -->
+        <section class="main">
+            <textarea v-model="editor"></textarea>
+        </section>
+
+        <!-- 预览区域 -->
+        <aside class="preview" v-html="editorPreview"> </aside>
+    </div>
+
+    <!-- js 代码 -->
+    <script src="index.js"></script>
+</body>
+
+</html>
